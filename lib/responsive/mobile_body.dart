@@ -90,7 +90,7 @@ class MyMobileBody extends StatelessWidget {
               ),
                Padding(
                 padding: const EdgeInsets.all(8.0),
-                child: Container(
+                child: SizedBox(
                   height: 100,
                   width: 390,
                   
@@ -105,7 +105,7 @@ class MyMobileBody extends StatelessWidget {
                 child: const Column(
                   children: [
                     Text('LOCATION;  THIKA',style: TextStyle(color: Colors.white,fontSize: 20,fontWeight: FontWeight.bold,fontStyle: FontStyle.italic,),),
-                    Text('IMARAPLAZA 4TH FLOOR,NEAR MAIN STAGE'),
+                    Text('IMARA PLAZA 4TH FLOOR,NEAR MAIN STAGE'),
                     Text('OPPOSITE TO KANINI WHOLESALE'),
                     Text('P.O BOX 224-01000-THIKA'),
                     Text('Service to man is service to God')
@@ -125,12 +125,13 @@ class MyMobileBody extends StatelessWidget {
                 padding: const EdgeInsets.all(8.0),
                 child: Container(
                   height: 200,
+                  width: 370,
                   decoration: BoxDecoration(color: Colors.blue,borderRadius: BorderRadius.circular(15)),
                   child: const Center(child:
                    Column(
                     children: [
                       Text('VISION:',style: TextStyle(color: Colors.white,fontSize: 20,fontStyle: FontStyle.italic,fontWeight: FontWeight.w300),),
-                      Text('We have an impact on the academic experiences of our students,helping them to connect with transformative opportunities and resources,we partner with organisation and community with access o the resources and digital talent that can meaningfully impact some of the worlds society challenges',style: TextStyle(color: Colors.white,fontStyle: FontStyle.italic,fontWeight: FontWeight.w300)),
+                      Text('We have an impact on the academic experiences of our students,helping them to connect with transformative opportunities and resources,we partner with organisation and community with access of the resources and digital talent that can meaningfully impact some of the worlds society challenges',style: TextStyle(color: Colors.white,fontStyle: FontStyle.italic,fontWeight: FontWeight.w300)),
                       Text('more information call:',style: TextStyle(color: Colors.white,fontSize: 15,fontWeight: FontWeight.bold),),
                       Text('+254 722 141 787',style: TextStyle(color: Colors.red,fontSize: 20,fontWeight: FontWeight.bold),),
                     ],),),
